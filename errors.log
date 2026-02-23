@@ -1,0 +1,5 @@
+[2026-02-23T20:35:11.210578700] INVALID: "Bad Book::123:0" - MalformedBookEntryException: Title or Author empty.
+[2026-02-23T20:38:26.322965700] INVALID: "Bad Book::123:0" - MalformedBookEntryException: Title or Author empty.
+[2026-02-23T20:38:45.483906600] INVALID: "Bad Book::123:0" - MalformedBookEntryException: Title or Author empty.
+[2026-02-23T20:38:56.822327200] INVALID: "Bad Book::123:0" - MalformedBookEntryException: Title or Author empty.
+[2026-02-23T20:40:11.797487300] INVALID: "Bad Book::123:0" - MalformedBookEntryException: Title or Author empty.
