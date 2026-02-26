@@ -3,3 +3,4 @@ Effective Java:Joshua Bloch:9780134685991:4
 Java Basics:Ali Ahmad:1234567890123:3
 New Book:Randa hasen:1111111111111:2
 New Book:Soso sh:1111111111111:2
+Bad Book::123:0
