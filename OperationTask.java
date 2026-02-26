@@ -101,13 +101,20 @@ public class OperationTask implements Runnable {
             errorCount[0]++;
         }
     }
-
+    /**
+     * Prints the formatted header for book display.
+     */
     private void printHeader() {
         System.out.printf("%-30s %-20s %-15s %5s%n",
                 "Title", "Author", "ISBN", "Copies");
         System.out.println("-------------------------------------------------------------");
     }
-
+    
+    /**
+     * Prints a single book in formatted table style.
+     *
+     * @param b The book to display.
+     */
     private void printBook(Book b) {
         System.out.printf("%-30s %-20s %-15s %5d%n",
                 b.getTitle(),

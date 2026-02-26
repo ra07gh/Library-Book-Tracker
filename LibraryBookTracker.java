@@ -1,8 +1,6 @@
 import java.io.*;
 import java.time.LocalDateTime;
 import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 
 
@@ -64,27 +62,7 @@ public class LibraryBookTracker {
         }
     }
 
-    /**
-     * Prints the formatted header for book display.
-     */
-    private static void printHeader() {
-        System.out.printf("%-30s %-20s %-15s %5s%n",
-                "Title", "Author", "ISBN", "Copies");
-        System.out.println("---------------------------------------------------------------------");
-    }
-
-    /**
-     * Prints a single book in formatted table style.
-     *
-     * @param b The book to display.
-     */
-    private static void printBook(Book b) {
-        System.out.printf("%-30s %-20s %-15s %5d%n",
-                b.getTitle(),
-                b.getAuthor(),
-                b.getIsbn(),
-                b.getCopies());
-    }
+    
 
     /**
      * Logs an invalid record or operation into errors.log.
